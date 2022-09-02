@@ -1,0 +1,16 @@
+.title{display:flex; justify-content: space-between;}
+
+
+.second{background-image: url(image/wkt1.jpg); background-repeat: no-repeat; background-size: 1400px; display: flex; height: 600px;
+margin-left: 150px;
+
+}
+.left{color: aliceblue;}
+
+
+.review{display: flex; justify-content: space-between; width: 90%;
+background-color: rgb(89, 89, 122); margin-left: 8%; margin-right:10% ;}
+.checked {
+    color: orange}
+
+    .contact{text-align: center;}
