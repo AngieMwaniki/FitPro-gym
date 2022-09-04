@@ -41,7 +41,7 @@ background-color: rgb(89, 89, 122); margin-left: 8%; margin-right:10% ;}
       border-radius: 5px;
   }
   #post:hover{
-      background-color: deeppink;
+      background-color: darkred;
   }
 
   .wrapper{margin: 200px 15%;
@@ -57,6 +57,47 @@ background-color: rgb(89, 89, 122); margin-left: 8%; margin-right:10% ;}
   .like, .dislike, .subscribe{
     display: grid;
     place-items: center;
-    
   }
+
+  .icon{margin-top: 70px;
+        font-size: 80px;
+        color: #0086b3;
+        cursor: pointer;
+        text-shadow: 5px 8px 15px #2a93b6;
+        transition: 2 s;
+  }
+
+.icon:hover{color: #ba0015;
+            transform: scale(1.2);
+ } 
+
+ input#text {
+  margin-top: -100px;
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  outline:none;
+  text-align: center;
+  background: none;
+  font-size: 30px;
+  font-weight: 800;
+  pointer-events: none;
+  color: black;
+  text-shadow: 2px 2px 3px white;
+ }
+
+ #post{
+  background: #0086b3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ececec;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px 35px;
+  box-shadow: 12px 12px 24px skyblue,
+  -12px -12px 24px #4affff;
+ } 
+
+
     .contact{text-align: center;}
