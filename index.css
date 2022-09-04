@@ -16,6 +16,8 @@ margin-right: 30px;
 
 .left{color: black; margin-right: 710px; }
 
+.customer{text-align: center;}
+
 
 .likes-section {
     display: flex;
@@ -37,8 +39,13 @@ margin-right: 30px;
     transition: color 300ms;
     cursor: pointer;}
 
-.review{display: flex; justify-content: space-between; width: 90%;
-background-color: skyblue; margin-left: 8%; margin-right:10% ;}
+.review{display: flex; 
+  justify-content: space-between; 
+  width: 90%;
+background-color: skyblue;
+ margin-left: 8%; 
+ margin-right:10% ;}
+
 .checked {
     color: orange}
   #comment-box, #post {
@@ -50,6 +57,8 @@ background-color: skyblue; margin-left: 8%; margin-right:10% ;}
   }
 
   .wrapper{margin: 200px 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
            width: 70%;
            height: 300px;
            display: grid;
@@ -59,7 +68,7 @@ background-color: skyblue; margin-left: 8%; margin-right:10% ;}
                         -12px -12px 24px #4affff;
             border-radius: 30px  ;
   }
-  .like, .dislike, .subscribe{
+  .like, .dislike, .comments{
     display: grid;
     place-items: center;
   }
