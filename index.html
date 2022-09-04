@@ -102,37 +102,18 @@
         does not only help on the physical part but also mental and social aspects of life.
        </div>
     </div>
-    <div class="comment">
-        <div class="likes-section">
-            <span id="like-count" class="likes">0 likes</span>
-            <button id="like-button" class="like-button">♥</button>
-          </div>
-    </div>
-
-  <!--  <div class="container">
-        <h2>Leave us a comment</h2>
-        <form>
-            <textarea placeholder="Add your comment here"></textarea>
-<div class="btn">
-    <input type="submit" value="Comment">
-    <button>Cancel</button>
-</div>      
-</form>
-</div>-->
-
-</div>
 
 <div class="wrapper">
     <div class="like">
-       <i class="fas fa-heart icon"></i>
+       <i onclick="count()" class="fas fa-heart icon"></i>
        <br>
        <input  id="text" type="number" value="0">
     </div>
         
     <div class="dislike">
-        <i class="fas fa-heart-broken icon"></i>
+        <i onclick="count()" class="fas fa-heart-broken icon"></i>
         <br>
-        <input id="text" type="number" value="0">
+        <input id="dislike" type="number" value="0">
     </div>
     <div class="comments">
         <input type="text" id="comment-box" placeholder="Enter comment">
