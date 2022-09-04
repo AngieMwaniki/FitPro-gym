@@ -44,5 +44,19 @@ background-color: rgb(89, 89, 122); margin-left: 8%; margin-right:10% ;}
       background-color: deeppink;
   }
 
-  
+  .wrapper{margin: 200px 15%;
+           width: 70%;
+           height: 300px;
+           display: grid;
+           grid-template-columns: 1.5fr 1.5fr 2fr;
+           background: #3accfd;
+           box-shadow: 12px 12px 24px skyblue,
+                        -12px -12px 24px #4affff;
+            border-radius: 30px  ;
+  }
+  .like, .dislike, .subscribe{
+    display: grid;
+    place-items: center;
+    
+  }
     .contact{text-align: center;}
