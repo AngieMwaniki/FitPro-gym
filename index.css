@@ -85,7 +85,7 @@ background-color: skyblue;
             transform: scale(1.2);
  } 
 
- input#text, #dislike {
+ input#likeCount, #dislikeCount {
   margin-top: -100px;
   margin-left: 15px;
   width: 100%;

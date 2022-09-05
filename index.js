@@ -5,13 +5,13 @@ submit.addEventListener('click', ()=>{
   alert('Thanks for signing up to FitPro gym. YOU ARE IN FOR A RIDE!!')
 })
 
-var likeCount = document.querySelector('#text');
-var dislikeCount = document.querySelector('#dislike');
+var likeCount = document.querySelector('#likeCount');
+var dislikeCount = document.querySelector('#dislikeCount');
 
-function count(){likeCount.value = parseInt(likeCount.value) ++1;
+function count(){likeCount.value = parseInt(likeCount.value) +1;
 }
 
-function count(){dislikeCount.value = parseInt(dislikecount.value) ++1;
+function count1(){dislikeCount.value = parseInt(dislikecount.value) +1;
 } 
 
 var post= document.getElementById("post");
