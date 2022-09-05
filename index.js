@@ -5,10 +5,12 @@ submit.addEventListener('click', ()=>{
   alert('Thanks for signing up to FitPro gym. YOU ARE IN FOR A RIDE!!')
 })
 
+let colors = ['blue', 'yellow', 'black', 'red', 'brown' ,'orange'];
 const hover = document.querySelector('.hill')
-hover.onmouseover = function(){
-  
-}
+hover.addEventListener(onmouseover,function(){
+  var randomcolor =colors[Math.floor(math.random() * colors.length)]
+  hover.getElementsByClassName.background
+})
 
 var likeCount = document.querySelector('#likeCount');
 var dislikeCount = document.querySelector('#dislikeCount');
