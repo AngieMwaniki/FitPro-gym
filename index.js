@@ -6,10 +6,10 @@ submit.addEventListener('click', ()=>{
 })
 
 let colors = ['blue', 'yellow', 'black', 'red', 'brown' ,'orange'];
-const hover = document.querySelector('.hill')
+const hover = document.querySelector('.second')
 hover.addEventListener(onmouseover,function(){
-  var randomcolor =colors[Math.floor(math.random() * colors.length)]
-  hover.getElementsByClassName.background
+  var randomColor = colors[Math.floor(math.random() * colors.length)]
+  hover.getElementsByClassName.background = randomColor
 })
 
 var likeCount = document.querySelector('#likeCount');
