@@ -5,8 +5,8 @@ submit.addEventListener('click', ()=>{
   alert('Thanks for signing up to FitPro gym. YOU ARE IN FOR A RIDE!!')
 })
 
-const likeCount = document.querySelector('#text');
-const dislikeCount = document.querySelector('#dislike');
+var likeCount = document.querySelector('#text');
+var dislikeCount = document.querySelector('#dislike');
 
 function count(){likeCount.value = parseInt(likeCount.value) ++1;
 }
