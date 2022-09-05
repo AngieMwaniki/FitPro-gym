@@ -5,6 +5,11 @@ submit.addEventListener('click', ()=>{
   alert('Thanks for signing up to FitPro gym. YOU ARE IN FOR A RIDE!!')
 })
 
+const hover = document.querySelector('.hill')
+hover.onmouseover = function(){
+  
+}
+
 var likeCount = document.querySelector('#likeCount');
 var dislikeCount = document.querySelector('#dislikeCount');
 
